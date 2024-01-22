@@ -1,60 +1,53 @@
 # foodbot
 
-Чат-бот "Доставка еды"
+### This project was archived as of 10/15/2020
 
-Данный проект создан, чтобы люди могли заказывать еду, не выходя из дома.
-Данный проект -- чат-бот на базе ВКонтакте.
+Chatbot "Food delivery"
 
-У него есть несколько функций. Так как бот настроен под меня, то и вся еда и рестораны там тоже настроены под меня, но это очень легко изменить.
+This project was created so that people can order food without leaving home. This project is a chatbot for the [VK social network](https://vk.com). It has several functions. Since the bot is customized for me, all the food and restaurants are also customized for me, but this is very easy to change. The bot allows you to order food from 1 of 4 fast food restaurants: McDonald's, Baskin-Robbins, Subway, and KFC. It is also possible to order food from several restaurants at the same time.
 
-В боте есть возможности заказть еду из 1 из 4 ресторанов быстрого питания:  Макдональдс, Баскин-Роббинс, СабВей, КФС.
-Также предусмотрена возможность заказть еду из нескольких ресторанов одновременно.
+If you choose a restaurant, then you have a choice between your favorite dishes and something new.
 
-Если Вы выбираете ресторан, то Вам доступен выбор между Вашими любимыми блюдами и чем-то новым.
+My favorite dishes include:
 
-Мои любимые блюда включают в себя:
+- McDonald's:
+  - Big Mac
+  - Big Tasty
+  - French fries
+  - Vanilla milkshake
 
-Макдональдс:
-1) Биг-Мак
-2) Биг-Тейсти
-3) Картофель фри
-4) Ванильный молочный коктейль
+- Baskin-Robbins:
+  - Milkshake
+  - Frieze
 
-Баскин-Роббинс:
-1) Молочный коктейль
-2) Фриз
+- Subway:
+  - Sub Spicy-Italian
+  - Draft soft drinks
+  - Apple juice in packaging
 
-СабВей:
-1) Саб Острый-Итальянский
-2) Разливные прохладительные напитки
-3) Яблочный сок в упаковке
+- KFC:
+  - Spicy twister
+  - Spicy strips
+  - French fries
+  - Pepsi from the fountain
+  - Pepsi bottled
+  - Vanilla milkshake
 
-КФС:
-1) Острый твистер
-2) Острые стрипсы
-3) Картофель Фри
-4) Пепси разливная 0.4
-5) Пепси бутилированная
-6) Ванильный молочный коктейль
+Also, each dish has the possibility of customization:
 
+- Big Mac: Extras Sauce, Extras Jalapeño
+- Big Tasty: No Tomato, Spicy, Extra. Jalapeño, Add. Sauce
+- Vanilla milkshake (McDonald's): small, regular, large
+- French fries (McDonald's): small, standard, large, ketchup
+- Milkshake (Baskin-Robbins): vanilla ice cream, Magic Lollipop ice cream, standard, large
+- Freeze: vanilla ice cream, Magic Lollipop ice cream, Coke, Fanta, Sprite, standard, large
+- Sub Spicy-Italian: ketchup, Sweet Onion sauce, Honey-Mustard sauce, Sweet-Sour sauce, mayonnaise
+- Pepsi (SubVay): 0.3, 0.4, 0.5
+- 7UP (SubWay): 0.3, 0.4, 0.5
+- Mirinda (SubWay): 0.3, 0.4, 0.5
+- Spicy strips: 3 pcs., 6 pcs., 9 pcs.
+- Twister spicy: Without tomato
+- French fries: small, standard, large, Sweet and Sour Chili sauce
+- Vanilla milkshake (KFC): 0.3, 0.4, 0.5
 
-Также каждое блюдо имеет возможность кастомизации:
-- Биг-Мак: Доп. Соус, Доп. Халапеньо
-- Биг-Тейсти: Без помидора, Острый, Доп. Халапеньо, Доп. Соус
-- Ванильный молочный коктейль (Макдональдс): маленький, стандартный, большой
-- Картофель Фри (Макдональдс): маленький, стандарьный, большой, кетчуп
-- Молочный коктейль (Баскин-Роббинс): ванильное мороженое, мороженое Волшебные Леденцы, стандартный, большой
-- Фриз: ванильное мороженое, мороженое Волшебные Леденцы, Кока-Кола, Фанта, Спрайт, стандартный, большой
-- Саб Острый-Итальянский: кетчуп, соус Сладкий Лук, соус Медово-Горчичный, соус Кисло-Сладкий, майонез
-- Пепси (СабВей): 0.3, 0.4, 0.5
-- 7UP (СабВей): 0.3, 0.4, 0.5
-- Миринда (СабВей): 0.3, 0.4, 0.5
-- Острые стрипсы: 3 шт., 6 шт., 9 шт.
-- Твистер острый: Без помидора
-- Картофель Фри: маленький, стандартный, большой, соус Кисло-Сладкий Чили
-- Ванильный молочный коктейль (КФС): 0.3, 0.4, 0.5
-
-Все блюда и дополнительные возможности для них записаны в функции get_details в словаре food, так что их можно изменить или добавить к ним новые.
-
-
-Проект создан Анисимовым Александром.
+All dishes and additional options for them are written in the get_details function in the food dictionary, so they can be changed or new ones added to them.
