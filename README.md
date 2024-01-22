@@ -1,6 +1,6 @@
 # foodbot
 
-### This project was archived as of 10/15/2020
+### [This project was archived as of 10/15/2020]
 
 Chatbot "Food delivery"
 
